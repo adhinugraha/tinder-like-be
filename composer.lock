@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2a6a8441eaa1143399e057d9ec4d4d10",
+    "content-hash": "196663699adccdf0c46592b0f116d7e5",
     "packages": [
         {
             "name": "brick/math",
@@ -3484,16 +3484,16 @@
         },
         {
             "name": "swagger-api/swagger-ui",
-            "version": "v5.29.1",
+            "version": "v5.29.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/swagger-api/swagger-ui.git",
-                "reference": "507a3bfe5c402f27a378d7fb8e2bb1446604b006"
+                "reference": "62b6d320ef0fe1addd0487e55006f5306fc1e945"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swagger-api/swagger-ui/zipball/507a3bfe5c402f27a378d7fb8e2bb1446604b006",
-                "reference": "507a3bfe5c402f27a378d7fb8e2bb1446604b006",
+                "url": "https://api.github.com/repos/swagger-api/swagger-ui/zipball/62b6d320ef0fe1addd0487e55006f5306fc1e945",
+                "reference": "62b6d320ef0fe1addd0487e55006f5306fc1e945",
                 "shasum": ""
             },
             "type": "library",
@@ -3539,9 +3539,9 @@
             ],
             "support": {
                 "issues": "https://github.com/swagger-api/swagger-ui/issues",
-                "source": "https://github.com/swagger-api/swagger-ui/tree/v5.29.1"
+                "source": "https://github.com/swagger-api/swagger-ui/tree/v5.29.2"
             },
-            "time": "2025-09-29T07:30:03+00:00"
+            "time": "2025-10-02T09:54:29+00:00"
         },
         {
             "name": "symfony/clock",

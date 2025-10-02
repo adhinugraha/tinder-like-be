@@ -15,8 +15,8 @@ class Like extends Model
         'is_like',
     ];
     
-    public function likedPerson()
+    public function person()
     {
-        return $this->belongsTo(User::class, 'user_id');
+        return $this->belongsTo(User::class, 'person_id');
     }
 }
