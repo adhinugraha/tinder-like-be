@@ -17,7 +17,7 @@ class LikeRepository extends BaseRepository
     public function getLikedByUserId($request)
     {
         $datas = $this->model->where('user_id', $request->personId)
-            ->where('is_like', true)->with('person');
+            ->where('is_like', true)->with(['person', 'person.images']);
 
         return $datas;
     }
